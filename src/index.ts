@@ -28,6 +28,7 @@ client.on(Events.ClientReady, () => {
   console.log("The bot is online.");
 });
 
+/*
 let count: number;
 let lastUserId: string | null;
   try {
@@ -64,6 +65,7 @@ client.on(Events.MessageCreate, async (message) => {
     message.react("☑️");
   }
 });
+*/
 
 client.on(Events.GuildMemberAdd, (member) => {
   const role = member.guild.roles.cache.get("720365286217482410");
